@@ -14,7 +14,8 @@ class Transaction extends Model
     'category_id',
     'transaction_date',
     'amount',
-    'description'
+    'description',
+    'user_id'
 ];
 
     protected $dates = ['transaction_date'];
